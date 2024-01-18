@@ -146,7 +146,7 @@ function startTimer() {
             currentQuestionIndex++;
             showNextQuestion();
         }
-    }, 500);
+    }, 1000);
 }
 
 // Fonction pour terminer le quiz
