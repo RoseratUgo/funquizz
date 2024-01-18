@@ -13,7 +13,7 @@ Bienvenue dans FUNQUIZZ ! Testez vos connaissances en répondant à des question
 
 ---
 
-## 🎮 Aperçu
+<h2 id="aperçu">🎮 Aperçu</h2>
 
 FUNQUIZZ est un jeu-questionnaire amusant qui vous permet de tester vos connaissances en répondant à des questions sur la nourriture. Le jeu comprend une minuterie pour chaque question, des effets sonores pour les réponses correctes et incorrectes, ainsi qu'un classement des meilleurs scores.
 
@@ -21,7 +21,7 @@ Ce projet a été développé en moins d'une journée par trois étudiant·es da
 
 ---
 
-## 🚀 Installation
+<h2 id="installation">🚀 Installation</h2>
 
 Pour installer FUNQUIZZ, suivez ces étapes simples :
 
@@ -31,7 +31,7 @@ Pour installer FUNQUIZZ, suivez ces étapes simples :
 
 ---
 
-## 🎯 Utilisation
+<h2 id="utilisation">🎯 Utilisation</h2>
 
 1. Entrez votre pseudo dans le champ prévu et cliquez sur le bouton "Démarrer le Quizz".
 2. Répondez aux questions en cliquant sur les boutons de réponse.
