@@ -1,0 +1,260 @@
+body{
+    background-image: url("../image/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Lemon', serif;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    margin-top: 50px;
+    background-color: #004B8A;
+    padding: 50px;
+    border-radius: 10px;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.enclose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.start-button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start-button-container h1{
+    font-size: 40pt;
+}
+
+#startQuizButton{
+    position: absolute;
+    bottom: 15%;
+    background-color: #F32F4D;
+    border: none;
+    width: 350px;
+    cursor: pointer;
+    height: 70px;
+    border-radius: 300px;
+    font-family: 'Lemon', serif;
+    color: white;
+    font-size: 20pt;
+}
+
+.responses button{
+    background-color: #F32F4D;
+    border: #003160 3px solid;
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Lemon', serif;
+    color: white;
+    font-size: 20pt;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.responses{
+    margin-top: 20px;
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 200px;
+    row-gap: 50px;
+    margin-bottom: 60px;
+}
+
+#skip{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background-color: #F32F4D;
+    border: none;
+    color: white;
+    font-family: 'Lemon', serif;
+    width: 150px;
+    cursor: pointer;
+    height: 70px;
+    border-radius: 300px;
+}
+
+.step{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    font-size: 25pt;
+}
+
+.timer-container{
+    text-align: center;
+}
+
+.timer-container h3{
+    font-size: 30px;
+    margin: 0;
+}
+
+.timer-container p{
+    font-size: 20px;
+}
+
+.pseudo{
+    border: none;
+    width: 400px;
+    height: 80px;
+    padding: 20px;
+    font-size: 20pt;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Lemon', serif;
+    color: #004B8A;
+}
+
+.end-quiz-buttons button{
+    background-color: #F32F4D;
+    border: #003160 3px solid;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Lemon', serif;
+    color: white;
+    font-size: 12pt;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15px;
+}
+
+#uploadFile::file-selector-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F32F4D;
+    border: #003160 3px solid;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Lemon', serif;
+    color: white;
+    font-size: 12pt;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+#uploadFile{
+    margin-top: 50px;
+    padding: 0;
+}
+
+
+/* Ajoutez ces règles CSS pour la mise en page mobile */
+@media screen and (max-width: 768px) {
+    body {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .logo img{
+        width: 300px;
+    }
+
+    .enclose {
+        height: 100vh;
+
+    }
+
+    .container {
+        width: 90%; /* Ajustez la largeur pour s'adapter à l'écran */
+        padding: 20px;
+    }
+
+    .start-button-container h1 {
+        font-size: 30pt; /* Ajustez la taille de la police pour les mobiles */
+    }
+
+    #startQuizButton {
+        bottom: 5%;
+        width: 80%; /* Ajustez la largeur du bouton pour les mobiles */
+        height: 50px;
+        font-size: 14pt; /* Ajustez la taille de la police pour les mobiles */
+    }
+
+    .responses button {
+        width: 150px; /* Ajustez la largeur des boutons de réponse pour les mobiles */
+        height: 60px;
+        font-size: 14pt; /* Ajustez la taille de la police pour les mobiles */
+    }
+
+    #skip {
+        bottom: 20px;
+        right: 20px;
+        width: 120px;
+        height: 50px;
+        font-size: 14pt; /* Ajustez la taille de la police pour les mobiles */
+    }
+
+    .step {
+        bottom: 20px;
+        left: 20px;
+        font-size: 20pt; /* Ajustez la taille de la police pour les mobiles */
+    }
+
+    .pseudo {
+        width: 80%; /* Ajustez la largeur du champ de pseudo pour les mobiles */
+        height: 50px;
+        font-size: 14pt; /* Ajustez la taille de la police pour les mobiles */
+    }
+
+    #startQuizTitle{
+        text-align: center;
+        font-size: 25pt;
+    }
+
+    .responses{
+        gap: 10px;
+        width: 100%;
+    }
+
+
+    .end-quiz-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .end-quiz-buttons button{
+        background-color: #F32F4D;
+        border: #003160 3px solid;
+        width: 100%;
+        height: 50px;
+        cursor: pointer;
+        border-radius: 10px;
+        font-family: 'Lemon', serif;
+        color: white;
+        font-size: 12pt;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin-bottom: 15px;
+    }
+}
+

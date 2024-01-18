@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style-index.css">
+    <script src=""></script>
+
+    <title>Quizz - Miam Miam !</title>
+</head>
+<body>
+
+<img src="../image/logo_quizz.svg" alt="logo du quizz" id="logo">
+
+<div id="container-button">
+    <a href="quizz.html">JOUER</a>
+    <a href="customQuizz.html">IMPORTER QUIZZ</a>
+    <a href="classement.html">CLASSEMENT</a>
+</div>
+<div id="soundModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Voulez-vous activer le son pour l'expérience complète ?</p>
+        <button class="modal-button" id="activateSound">Activer le Son</button>
+    </div>
+</div>
+<script>
+    // Créer un nouvel objet Audio
+    const audio = new Audio('../music/come-on-boy-8018.mp3');
+
+    // Obtenir les éléments pour la modale
+    const modal = document.getElementById("soundModal");
+    const closeModal = document.getElementsByClassName("close")[0];
+    const activateSoundButton = document.getElementById("activateSound");
+
+    // Lorsque la page est chargée, afficher la modale
+    window.onload = () => {
+        modal.style.display = "block";
+    };
+
+    // Lorsque l'utilisateur clique sur <span> (x), fermer la modale
+    closeModal.onclick = function() {
+        modal.style.display = "none";
+    };
+
+    // Lorsque l'utilisateur clique sur "Activer le Son", jouer la musique et fermer la modale
+    activateSoundButton.onclick = function() {
+        audio.play().catch(e => {
+            console.error("La lecture automatique de la musique a échoué", e);
+        });
+        modal.style.display = "none";
+    };
+
+    // Si l'utilisateur clique en dehors de la modale, la fermer
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    };
+
+</script>
+</body>
+</html>

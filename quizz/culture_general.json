@@ -1,0 +1,126 @@
+{
+  "quiz": {
+    "questions": [
+      {
+        "question": "Quelle est la capitale de l'Espagne ?",
+        "options": ["Madrid", "Barcelone", "Séville", "Valence"],
+        "answer": "Madrid"
+      },
+      {
+        "question": "Quelle est la plus grande chaîne de montagnes du monde ?",
+        "options": ["Les Alpes", "Les Andes", "Les Rocky Mountains", "L'Himalaya"],
+        "answer": "L'Himalaya"
+      },
+      {
+        "question": "Qui a écrit 'Roméo et Juliette' ?",
+        "options": ["William Shakespeare", "F. Scott Fitzgerald", "George Orwell", "Charles Dickens"],
+        "answer": "William Shakespeare"
+      },
+      {
+        "question": "Quel est le plus grand lac d'eau douce au monde ?",
+        "options": ["Lac Supérieur", "Lac Baïkal", "Lac Michigan", "Lac Victoria"],
+        "answer": "Lac Baïkal"
+      },
+      {
+        "question": "Dans quel pays se trouve la Grande Muraille de Chine ?",
+        "options": ["Chine", "Inde", "Japon", "Corée du Sud"],
+        "answer": "Chine"
+      },
+      {
+        "question": "Qui a peint la 'Nuit étoilée' ?",
+        "options": ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Claude Monet"],
+        "answer": "Vincent van Gogh"
+      },
+      {
+        "question": "Quel est le plus long fleuve du monde ?",
+        "options": ["Le Nil", "L'Amazone", "Le Mississippi", "Le Yangtsé"],
+        "answer": "Le Nil"
+      },
+      {
+        "question": "Quelle est la devise des États-Unis ?",
+        "options": ["In God We Trust", "E Pluribus Unum", "Liberté, Égalité, Fraternité", "Carpe Diem"],
+        "answer": "In God We Trust"
+      },
+      {
+        "question": "Quelle est la plus grande île du monde ?",
+        "options": ["Java", "Australie", "Groenland", "Madagascar"],
+        "answer": "Groenland"
+      },
+      {
+        "question": "Qui a écrit '1984' ?",
+        "options": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "J.K. Rowling"],
+        "answer": "George Orwell"
+      },
+      {
+        "question": "Quelle est la capitale du Brésil ?",
+        "options": ["Rio de Janeiro", "São Paulo", "Brasília", "Belo Horizonte"],
+        "answer": "Brasília"
+      },
+      {
+        "question": "Quel pays est également connu sous le nom de 'Pays du Matin Calme' ?",
+        "options": ["Corée du Nord", "Japon", "Corée du Sud", "Chine"],
+        "answer": "Corée du Sud"
+      },
+      {
+        "question": "Quelle est la plus grande planète du système solaire ?",
+        "options": ["Terre", "Mars", "Jupiter", "Vénus"],
+        "answer": "Jupiter"
+      },
+      {
+        "question": "Quel est le plus grand océan du monde ?",
+        "options": ["Océan Atlantique", "Océan Indien", "Océan Arctique", "Océan Pacifique"],
+        "answer": "Océan Pacifique"
+      },
+      {
+        "question": "Qui a écrit 'Le Petit Prince' ?",
+        "options": ["Victor Hugo", "Antoine de Saint-Exupéry", "Jules Verne", "Gustave Flaubert"],
+        "answer": "Antoine de Saint-Exupéry"
+      },
+      {
+        "question": "Quelle est la plus grande île d'Asie ?",
+        "options": ["Sumatra", "Java", "Bornéo", "Sri Lanka"],
+        "answer": "Bornéo"
+      },
+      {
+        "question": "Dans quel pays se trouve le Taj Mahal ?",
+        "options": ["Inde", "Pakistan", "Bangladesh", "Népal"],
+        "answer": "Inde"
+      },
+      {
+        "question": "Qui a écrit 'Orgueil et Préjugés' ?",
+        "options": ["Charles Dickens", "Emily Brontë", "Jane Austen", "Charlotte Brontë"],
+        "answer": "Jane Austen"
+      },
+      {
+        "question": "Quelle est la plus grande île du continent africain ?",
+        "options": ["Madagascar", "Île de la Réunion", "Île Maurice", "Zanzibar"],
+        "answer": "Madagascar"
+      },
+      {
+        "question": "Quel est le plus haut sommet d'Afrique ?",
+        "options": ["Mont Kenya", "Mont Kilimandjaro", "Mont Atlas", "Mont Rwenzori"],
+        "answer": "Mont Kilimandjaro"
+      },
+      {
+        "question": "Quel est le pays le plus peuplé d'Afrique ?",
+        "options": ["Égypte", "Nigeria", "Afrique du Sud", "Éthiopie"],
+        "answer": "Nigeria"
+      },
+      {
+        "question": "Quel est le plus grand lac d'Afrique ?",
+        "options": ["Lac Victoria", "Lac Tanganyika", "Lac Malawi", "Lac Turkana"],
+        "answer": "Lac Victoria"
+      },
+      {
+        "question": "Qui est l'auteur de 'La Guerre des mondes' ?",
+        "options": ["Isaac Asimov", "H.G. Wells", "Arthur C. Clarke", "Philip K. Dick"],
+        "answer": "H.G. Wells"
+      },
+      {
+        "question": "Quelle est la capitale de l'Australie ?",
+        "options": ["Melbourne", "Sydney", "Canberra", "Brisbane"],
+        "answer": "Canberra"
+      }
+    ]
+  }
+}

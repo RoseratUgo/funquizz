@@ -1,0 +1,43 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <title>FUNQUIZZ</title>
+</head>
+<body>
+<div class="enclose">
+<div class="logo">
+    <img src="../image/logo_quizz.svg" alt="">
+</div>
+<div class="start-button-container">
+    <h1 id="startQuizTitle">Le quizz de la bouffe</h1>
+    <input type="text" class="pseudo" placeholder="Votre pseudo">
+    <button id="startQuizButton">Démarrer le Quizz</button>
+</div>
+<div class="container" style="display: none;">
+    <h2 class="question"></h2>
+    <div class="responses">
+    </div>
+    <div class="skip">
+        <input id="skip" type="button" value="Passer">
+    </div>
+    <div class="timer-container">
+        <h3>TEMPS RESTANT</h3>
+        <p class="timer">00:20</p>
+    </div>
+    <div class="step">1/25</div>
+</div>
+</div>
+<audio id="backgroundMusic" loop>
+    <source src="../music/audiohub__4066141017341_the-quiz__testversion.mp3" type="audio/mpeg">
+    Votre navigateur ne supporte pas l'élément audio.
+</audio>
+<script src="../js/script.js"></script>
+</body>
+</html>

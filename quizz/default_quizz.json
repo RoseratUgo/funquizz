@@ -1,0 +1,261 @@
+{
+  "quiz": {
+    "questions": [
+      {
+        "question": "Quel est le seul fruit à avoir ses graines à l'extérieur ?",
+        "options": ["Pomme", "Fraises", "Banane", "Kiwi"],
+        "answer": "Fraises"
+      },
+      {
+        "question": "Quel est le pays d'origine du sushi ?",
+        "options": ["Chine", "Japon", "Corée", "Thaïlande"],
+        "answer": "Japon"
+      },
+      {
+        "question": "Quel fromage est connu pour être le plus vieux du monde ?",
+        "options": ["Cheddar", "Gouda", "Feta", "Roquefort"],
+        "answer": "Feta"
+      },
+      {
+        "question": "Quel est l'ingrédient principal du houmous ?",
+        "options": ["Avocat", "Pois chiches", "Aubergine", "Tomate"],
+        "answer": "Pois chiches"
+      },
+      {
+        "question": "Quelle cuisine est célèbre pour ses tapas ?",
+        "options": ["Italienne", "Mexicaine", "Espagnole", "Grecque"],
+        "answer": "Espagnole"
+      },
+      {
+        "question": "Quel est le fruit le plus consommé dans le monde ?",
+        "options": ["Pomme", "Banane", "Raisin", "Mangue"],
+        "answer": "Banane"
+      },
+      {
+        "question": "De quel pays est originaire le plat paella ?",
+        "options": ["Mexique", "Espagne", "Italie", "Portugal"],
+        "answer": "Espagne"
+      },
+      {
+        "question": "Quel légume est en réalité un fruit ?",
+        "options": ["Brocoli", "Carotte", "Tomate", "Pois"],
+        "answer": "Tomate"
+      },
+      {
+        "question": "Quel est le pays d'origine de la pizza Margherita ?",
+        "options": ["France", "Italie", "États-Unis", "Grèce"],
+        "answer": "Italie"
+      },
+      {
+        "question": "Le 'curry' est associé à quelle cuisine ?",
+        "options": ["Thaïlandaise", "Indienne", "Chinoise", "Japonaise"],
+        "answer": "Indienne"
+      },
+      {
+        "question": "Quel fruit est connu pour sa teneur élevée en potassium ?",
+        "options": ["Orange", "Pomme", "Banane", "Fraise"],
+        "answer": "Banane"
+      },
+      {
+        "question": "Le 'wasabi' est traditionnellement servi avec quel type de nourriture ?",
+        "options": ["Sushi", "Pizza", "Taco", "Burger"],
+        "answer": "Sushi"
+      },
+      {
+        "question": "Quel fromage est utilisé dans la pizza traditionnelle ?",
+        "options": ["Cheddar", "Gorgonzola", "Mozzarella", "Parmesan"],
+        "answer": "Mozzarella"
+      },
+      {
+        "question": "De quel pays est originaire le plat 'Ratatouille' ?",
+        "options": ["Italie", "France", "Espagne", "Portugal"],
+        "answer": "France"
+      },
+      {
+        "question": "Quel est le principal ingrédient du guacamole ?",
+        "options": ["Tomate", "Poivron", "Avocat", "Citron vert"],
+        "answer": "Avocat"
+      },
+      {
+        "question": "Le 'kimchi' est un plat fermenté traditionnel de quel pays ?",
+        "options": ["Japon", "Chine", "Corée", "Vietnam"],
+        "answer": "Corée"
+      },
+      {
+        "question": "Quelle épice est connue comme 'l'or rouge' ?",
+        "options": ["Curry", "Paprika", "Safran", "Cannelle"],
+        "answer": "Safran"
+      },
+      {
+        "question": "Dans quel pays le 'taco' est-il un plat traditionnel ?",
+        "options": ["Brésil", "Mexique", "Espagne", "Argentine"],
+        "answer": "Mexique"
+      },
+      {
+        "question": "Quel est l'ingrédient principal du 'Pesto' ?",
+        "options": ["Basilic", "Coriandre", "Persil", "Ciboulette"],
+        "answer": "Basilic"
+      },
+      {
+        "question": "Quel est le plat national de l'Inde ?",
+        "options": ["Butter Chicken", "Biryani", "Dal Makhani", "Aucun de ces réponses"],
+        "answer": "Aucun de ces réponses"
+      },
+      {
+        "question": "De quel fruit le 'calvados' est-il distillé ?",
+        "options": ["Raisin", "Pomme", "Cerise", "Poire"],
+        "answer": "Pomme"
+      },
+      {
+        "question": "La 'Moussaka' est un plat traditionnel de quel pays ?",
+        "options": ["Turquie", "Grèce", "Italie", "Espagne"],
+        "answer": "Grèce"
+      },
+      {
+        "question": "Quel est l'ingrédient principal du 'Taboulé' ?",
+        "options": ["Quinoa", "Boulgour", "Riz", "Pâtes"],
+        "answer": "Boulgour"
+      },
+      {
+        "question": "De quel pays est originaire le 'Tiramisu' ?",
+        "options": ["France", "Italie", "Espagne", "Portugal"],
+        "answer": "Italie"
+      },
+      {
+        "question": "Quel est le poisson principal utilisé dans la 'Bouillabaisse' ?",
+        "options": ["Saumon", "Morue", "Thon", "Rascasse"],
+        "answer": "Rascasse"
+      },
+      {
+        "question": "Quel est le légume le plus consommé au monde ?",
+        "options": ["Carotte", "Tomate", "Pomme de terre", "Brocoli"],
+        "answer": "Pomme de terre"
+      },
+      {
+        "question": "Quelle est la principale épice utilisée dans le curry indien ?",
+        "options": ["Cumin", "Curcuma", "Paprika", "Coriandre"],
+        "answer": "Curcuma"
+      },
+      {
+        "question": "Dans quelle ville italienne peut-on déguster une véritable pizza napolitaine ?",
+        "options": ["Milan", "Rome", "Naples", "Florence"],
+        "answer": "Naples"
+      },
+      {
+        "question": "Quel est l'ingrédient principal du plat mexicain 'Guacamole' ?",
+        "options": ["Tomate", "Avocat", "Oignon", "Piment"],
+        "answer": "Avocat"
+      },
+      {
+        "question": "Quel est le nom du plat italien composé de tranches fines de viande ou de poisson cru ?",
+        "options": ["Carbonara", "Lasagne", "Carpaccio", "Ravioli"],
+        "answer": "Carpaccio"
+      },
+      {
+        "question": "Quel est l'ingrédient principal du plat japonais 'Tempura' ?",
+        "options": ["Poisson cru", "Nouilles", "Légumes frits", "Riz"],
+        "answer": "Légumes frits"
+      },
+      {
+        "question": "Quel est le plat national de l'Espagne ?",
+        "options": ["Paella", "Tortilla espagnole", "Gazpacho", "Churros"],
+        "answer": "Paella"
+      },
+      {
+        "question": "De quel pays est originaire le plat 'Sushi' ?",
+        "options": ["Chine", "Corée", "Japon", "Thaïlande"],
+        "answer": "Japon"
+      },
+      {
+        "question": "Quelle est la principale viande utilisée dans un plat traditionnel américain de Thanksgiving ?",
+        "options": ["Poulet", "Dinde", "Canard", "Poulet rôti"],
+        "answer": "Dinde"
+      },
+      {
+        "question": "Quel est le légume principal utilisé dans le plat indien 'Aloo Gobi' ?",
+        "options": ["Pois chiches", "Épinards", "Chou-fleur", "Aubergine"],
+        "answer": "Chou-fleur"
+      },
+      {
+        "question": "Quel est l'ingrédient principal du plat espagnol 'Gazpacho' ?",
+        "options": ["Tomate", "Pomme de terre", "Concombre", "Poivron"],
+        "answer": "Tomate"
+      },
+      {
+        "question": "Quel est le plat national de la Grèce ?",
+        "options": ["Moussaka", "Souvlaki", "Tzatziki", "Dolmadakia"],
+        "answer": "Moussaka"
+      },
+      {
+        "question": "Quel est le principal ingrédient du plat vietnamien 'Pho' ?",
+        "options": ["Tofu", "Poulet", "Bœuf", "Porc"],
+        "answer": "Bœuf"
+      },
+      {
+        "question": "Quelle est la boisson nationale de la Russie ?",
+        "options": ["Vodka", "Thé", "Kvass", "Café"],
+        "answer": "Vodka"
+      },
+      {
+        "question": "Quel est le plat national de l'Argentine ?",
+        "options": ["Asado", "Empanadas", "Milanesa", "Choripán"],
+        "answer": "Asado"
+      },
+      {
+        "question": "Quel est le légume principal utilisé dans le plat indien 'Saag Aloo' ?",
+        "options": ["Chou-fleur", "Pomme de terre", "Épinards", "Aubergine"],
+        "answer": "Épinards"
+      },
+      {
+        "question": "Quel est l'ingrédient principal du plat mexicain 'Enchiladas' ?",
+        "options": ["Haricots", "Riz", "Tortillas", "Viande"],
+        "answer": "Tortillas"
+      },
+      {
+        "question": "Quel est le plat national de la Chine ?",
+        "options": ["Poulet au curry", "Riz frit", "Canard laqué", "Bœuf aux légumes"],
+        "answer": "Canard laqué"
+      },
+      {
+        "question": "Quel est l'ingrédient principal du plat italien 'Risotto' ?",
+        "options": ["Pomme de terre", "Riz", "Pâtes", "Semoule"],
+        "answer": "Riz"
+      },
+      {
+        "question": "Quelle est la principale épice utilisée dans le plat marocain 'Couscous' ?",
+        "options": ["Paprika", "Curcuma", "Cumin", "Ras el hanout"],
+        "answer": "Cumin"
+      },
+      {
+        "question": "Quel est le dessert français composé de crème brûlée à la vanille ?",
+        "options": ["Tarte Tatin", "Éclair au chocolat", "Madeleine", "Crème brûlée"],
+        "answer": "Crème brûlée"
+      },
+      {
+        "question": "Quel est l'ingrédient principal du plat thaïlandais 'Tom Yum' ?",
+        "options": ["Poulet", "Lait de coco", "Tofu", "Crevettes"],
+        "answer": "Crevettes"
+      },
+      {
+        "question": "Quel est le plat national du Mexique ?",
+        "options": ["Chiles en nogada", "Tacos al pastor", "Mole poblano", "Pozole"],
+        "answer": "Chiles en nogada"
+      },
+      {
+        "question": "Quelle est la principale viande utilisée dans un plat traditionnel japonais de barbecue ?",
+        "options": ["Bœuf", "Porc", "Poulet", "Canard"],
+        "answer": "Bœuf"
+      },
+      {
+        "question": "Quel est le dessert américain composé de biscuits au chocolat et de crème ?",
+        "options": ["Brownie", "Cheesecake", "Chocolate chip cookies", "Ice cream sandwich"],
+        "answer": "Chocolate chip cookies"
+      },
+      {
+        "question": "Quel est l'ingrédient principal du plat thaïlandais 'Pad Thai' ?",
+        "options": ["Poulet", "Crevettes", "Nouilles", "Tofu"],
+        "answer": "Nouilles"
+      }
+    ]
+  }
+}

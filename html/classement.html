@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Classement</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/classement.css">
+</head>
+
+<body>
+<div id="container">
+  <img class="logo" src="../image/logo_quizz.svg" alt="logo">
+  <h2>Classement</h2>
+  <table id="leaderboardTable">
+    <thead>
+    <tr>
+      <th>Pseudo</th>
+      <th>Score</th>
+    </tr>
+    </thead>
+    <tbody id="leaderboardBody">
+    <!-- Les entrées du classement seront insérées ici -->
+    </tbody>
+  </table>
+</div>
+<a href="index.html" class="backButton">
+  <img src="../image/backButton.png" alt="Retour"> RETOUR
+</a>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const leaderboard = JSON.parse(localStorage.getItem('leaderboard')) || [];
+    const leaderboardBody = document.getElementById('leaderboardBody');
+
+    // Trier le leaderboard par score
+    leaderboard.sort((a, b) => b.score - a.score);
+
+    // Prendre les 5 meilleures entrées
+    const topFive = leaderboard.slice(0, 5);
+
+    // Générer le HTML pour chaque entrée du classement
+    topFive.forEach(entry => {
+      const row = document.createElement('tr');
+      row.innerHTML = `
+      <td>${entry.pseudo}</td>
+      <td>${entry.score}</td>
+    `;
+      leaderboardBody.appendChild(row);
+    });
+  });
+
+</script>
+</body>
+</html>
